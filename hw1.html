@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>PHP報名表</title>
+</head>
+<body bgcolor="#ffffbb">
+<font face="微軟正黑體" color="blue" size="7">活動報名表</font>
+<a name="top"></a>
+
+<form action="result2.php" method="post">
+<h1>個人資料</h1>
+	請輸入您的姓名：<input type="text" name="uname" value="請一定要輸入"><br>
+ 	<br>
+	請輸入您的密碼：<input type="password" name="upwd"><br>
+ 	<br>
+	請問你的性別是？<br>
+	<input type="radio" name="gender" value="male">男
+	<input type="radio" name="gender" value="female">女
+	<br>
+ 	<br>
+	請輸入您的生日：<input type="date" name="date"><br>
+ 	<br>
+	請輸入您的身份證字號：<input type="ID" name="ID"><br>
+ 	<br>	
+	請輸入您的信箱：<input type="email" name="email"><br>
+ 	<br>
+	請輸入您的電話：<input type="tel" name="tel"><br>
+ 	<br>
+	請輸入您的緊急聯絡人姓名：<input type="text" name="emergency"><br>
+ 	<br>
+	請輸入你與緊急連絡人的關係：<input type="text" name="relationship"><br>
+ 	<br>
+	請輸入緊急連絡人的電話：<input type="tel" name="tel2"><br>
+ 	<br>
+	請輸入您的地址：<input type="text" name="address"><br>	
+ 	<br>
+	吃葷食還素食？<br>
+	<input type="radio" name="eat" value="meat">葷食
+	<input type="radio" name="eat" value="vegetable">素食
+	<br>
+ 	<br>
+	有無特殊疾病？<input type="text" name="disease"><br>
+ 	<br>
+	請問你的營服尺寸是？<br>
+	<select name="list">
+	<option value="S">S</option>
+	<option value="M">M</option>
+	<option value="L">L</option>
+	<option value="XL">XL</option>
+	<option value="2L">2L</option>
+	<option value="3L">3L</option>
+	<option value="4L">4L</option>
+	</select><br>
+<h3>尺寸表</h3>
+<table border="2">
+	<tr> <td>Size</td> <td>S</td> <td>M</td> <td>L</td> <td>XL</td> <td>2L</td> <td>3L</td> <td>4L</td> </tr>
+	<tr> <td>肩寬</td> <td>41</td> <td>43</td> <td>45</td> <td>47</td> <td>49</td> <td>51</td> <td>53</td> </tr>
+	<tr> <td>衣長</td> <td>62</td> <td>66</td> <td>68</td> <td>72</td> <td>74</td> <td>75</td> <td>77</td> </tr>
+	<tr> <td>衣寬</td> <td>47</td> <td>50</td> <td>53</td> <td>56</td> <td>59</td> <td>61</td> <td>63</td> </tr>
+</table>
+	<br>
+	請輸入您的訊息：<br>
+	<textarea name="text" rows="5" cols="100"></textarea>
+	<br>
+	<input type="submit" name="送出"><input type="reset" name="重設">
+
+</form>
+<br>
+
+<a href="https://noobtw.github.io/imcamp2017/index.html" target="new">欲知更多詳情請點這！</a><br>
+<a href="https://noobtw.github.io/imcamp2017/index.html" target="new">
+<img src="2.jpg">
+</a>
+<br>
+<a href="#top">回到頂端</a>
+
+</body>
+</html>
